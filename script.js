@@ -39,7 +39,7 @@ const increaseNumber = (incdec, itemprice) => {
 const discount_code = () => {
     let totalamtcurr = parseInt(total_cart_amt.innerHTML);
     let error_trw = document.getElementById('error_trw');
-    if (discountCode.value === 'madaan') {
+    if (discountCode.value === 'madaansahaab') {
         let newtotalamt = totalamtcurr - 15;
         total_cart_amt.innerHTML = newtotalamt;
         error_trw.innerHTML = "Hurray! code is valid";
