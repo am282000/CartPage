@@ -44,6 +44,6 @@ const discount_code = () => {
         total_cart_amt.innerHTML = newtotalamt;
         error_trw.innerHTML = "Hurray! code is valid";
     } else {
-        error_trw.innerHTML = "Try Again! Valid code is thapa";
+        error_trw.innerHTML = "Try Again! Valid code is madaansahaab";
     }
 }
