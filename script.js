@@ -9,7 +9,7 @@ const decreaseNumber = (incdec, itemprice) => {
     // console.log(itemval.value);
     if (itemval.value <= 0) {
         itemval.value = 0;
-        alert('Negative quantity not allowed');
+        alert('No item selected.');
     } else {
         itemval.value = parseInt(itemval.value) - 1;
         itemval.style.background = '#fff';
@@ -25,7 +25,7 @@ const increaseNumber = (incdec, itemprice) => {
     // console.log(itemval.value);
     if (itemval.value >= 5) {
         itemval.value = 5;
-        alert('max 5 allowed');
+        alert('Maximum 5 items allowed.');
         itemval.style.background = 'red';
         itemval.style.color = '#fff';
     } else {
